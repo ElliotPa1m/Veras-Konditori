@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poiret+One&display=swap" rel="stylesheet">
+    <title>Veras Konditori</title>
+</head>
+
+<body>
+    <header id="header">
+        <img id="logo" src="img/mock-logo.png" alt="logga">
+        <a id="about-button" href="#about">Om oss</a>
+        <a id="contact-button" href="#contact">Kontakta oss</a>
+    </header>
+
+    <section id="slideshow">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 6</div>
+                <img id="img-1" src="img/bakery-1.jpg" alt="Bakery image 1">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 6</div>
+                <img id="img-2" src="img/bakery-2.jpg" alt="Bakery image 2">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 6</div>
+                <img id="img-3" src="img/bakery-3.jpg" alt="Bakery image 3">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img id="img-4" src="img/bakery-4.jpg" alt="Bakery image 4">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                <img id="img-5" src="img/bakery-5.jpg" alt="Bakery image 5">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <img id="img-6" src="img/bakery-6.jpg" alt="Bakery image 6">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 id="about-headline">Om oss</h2>
+        <p id="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris efficitur semper dui ac
+            dictum. Aliquam
+            luctus elementum felis, nec pellentesque elit. Pellentesque nibh nulla, tristique vitae nisl nec, <br>
+            varius
+            ultricies erat. Suspendisse congue hendrerit turpis, vel tristique nisl aliquet at. Suspendisse nunc nisl,
+            dapibus eget fermentum at, sollicitudin quis elit. Phasellus quis mauris vitae sapien ultricies varius. <br>
+            Nam
+            placerat interdum dui, id laoreet est pellentesque vitae. Cras non sodales arcu. Ut vel enim velit. Nunc
+            eleifend ex sit amet lectus semper volutpat. Nunc sit amet velit nec felis semper aliquet. <br> Nullam quis
+            massa
+            eu mi facilisis aliquet quis suscipit velit. Etiam accumsan ex elementum fringilla fermentum. Duis suscipit
+            lectus non fringilla dictum</p>
+    </section>
+
+    <section id="contact">
+        <h2 id="contact-headline">Kontakta oss</h2>
+        <h3 id="contact-telephone">Telefon: 0430-12345</h3>
+        <h3 id="contact-email">E-Mail: veras@konditori.se</h3>
+        <h3 id="contact-address">Adress: <a target="_blank"
+                href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x465175dcce9cb3db:0x14a59399124a242a?sa=X&ved=1t:8290&ictx=111">Storgatan
+                10, 312 30 Laholm</a></h3>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
